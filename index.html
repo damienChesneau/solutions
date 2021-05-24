@@ -22,6 +22,7 @@
 
   <link href="assets/css/style.css" rel="stylesheet">
   <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-LPSJHCKLZE"></script>
 <script>
@@ -1161,9 +1162,7 @@
                   <i class="bi bi-envelope"></i>
                   <h3>Email </h3>
                   <p>contact@dcit-solutions.com<br>
-                    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-                    <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/dcit-solutions'});return false;">Planifier du
-                      temps avec moi</a>
+                    <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/dcit-solutions'});return false;">Planifier un appel ensemble</a>
                   </p>
                 </div>
               </div>
@@ -1182,7 +1181,6 @@
             <!-- Début de widget en ligne Calendly -->
             <p>Prendre un rendez-vous</p>
             <div class="calendly-inline-widget" data-url="https://calendly.com/dcit-solutions" style="min-width:320px;height:630px;"></div>
-            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
             <!-- Fin de widget en ligne Calendly -->
 <!--            <form action="mailto:contact@dcit-solutions.com?subject=Fomulaire" method="post" class="php-email-form" enctype="text/plain">-->
 <!--              <div class="row gy-4">-->
@@ -1286,9 +1284,7 @@
               <br>
               <strong>Téléphone:</strong> +33 7 56 87 73 51<br>
               <strong>Email:</strong> contact@dcit-solutions.com<br>
-              <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-              <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/dcit-solutions'});return false;">Planifier du
-                temps avec moi</a>
+              <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/dcit-solutions'});return false;">Planifier un appel ensemble</a>
             </p>
 
           </div>
@@ -1318,7 +1314,10 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <!-- Début de widget de badge Calendly -->
+  <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/dcit-solutions',
+    text: 'Planifier un appel ensemble', color: '#00a2ff', textColor: '#ffffff', branding: false }); }</script>
+  <!-- Fin de widget de badge Calendly -->
 </body>
 
 </html>
